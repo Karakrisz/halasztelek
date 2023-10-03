@@ -190,7 +190,22 @@ a {
 /********************  About formating start **********************/
 
 .about-content {
-    margin: 4em 5em;
+    padding: 2em 5em;
+    background-image: url(../img/about/%.svg);
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: -30em;
+    background-repeat: no-repeat;
+}
+
+.about-content__h2,
+.about-content__img-text-box__div__number-box__p,
+.page-link {
+    color: #373D46;
+}
+
+.about-content__h2 {
+    font-size: 2rem;
 }
 
 .about-content__img-text-box {
@@ -227,7 +242,6 @@ a {
 }
 
 .page-link {
-    color: #373D46;
     font-weight: 600;
     border: 2px solid #373D46;
     padding: 0.9em 4em;
@@ -237,6 +251,31 @@ a {
     background: #373D46;
     color: #fff;
     transition: all 1s;
+}
+
+.about-content__img-text-box__div__number-box {
+    top: 1em;
+    right: 1.5em;
+    background: #FEFFFE;
+    padding: 0 0.5em;
+    border-radius: 50%;
+}
+
+.about-content__img-text-box__div__number-box__p {
+    font-weight: 600;
+}
+
+.about-content__img-text-box__div__bottom-panel__p {
+    font-size: 1.3em;
+}
+
+.about-content__img-text-box__div__bottom-panel__p--font-fomating {
+    text-decoration: line-through;
+    font-weight: 300;
+}
+
+.about-content__img-text-box__div__bottom-panel__p--next-font-formating {
+    font-weight: 600;
 }
 
 
