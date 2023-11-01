@@ -1,3 +1,5 @@
+// ********************  Menu start **********************
+
 class MenuManager {
     constructor(hamburgerId, menuId, navbarSelector) {
         this.hamburger = document.getElementById(hamburgerId);
@@ -34,4 +36,79 @@ class MenuManager {
 
 const menuManager = new MenuManager('hamburger', 'menu', '.navbar');
 
-console.log("ok")
+// ********************  Menu end **********************
+
+// ********************  Gallery start **********************
+
+class Gallery {
+    constructor() {
+        this.slideIndex = 1;
+        this.slides = document.getElementsByClassName("gallery-content__sildes");
+        this.dots = document.getElementsByClassName("gallery-content__row__column__demo");
+        this.captionText = document.getElementById("gallery-content__caption-container__caption");
+        this.showSlide(this.slideIndex);
+    }
+
+    showSlide(n) {
+        if (n > this.slides.length) { this.slideIndex = 1; }
+        if (n < 1) { this.slideIndex = this.slides.length; }
+        for (let i = 0; i < this.slides.length; i++) {
+            this.slides[i].style.display = "none";
+        }
+        for (let i = 0; i < this.dots.length; i++) {
+            this.dots[i].classList.remove("active");
+        }
+        this.slides[this.slideIndex - 1].style.display = "block";
+        this.dots[this.slideIndex - 1].classList.add("active");
+        this.captionText.innerHTML = this.dots[this.slideIndex - 1].alt;
+    }
+
+    nextSlide() {
+        this.showSlide(this.slideIndex += 1);
+    }
+
+    prevSlide() {
+        this.showSlide(this.slideIndex -= 1);
+    }
+
+    currentSlide(n) {
+        this.showSlide(this.slideIndex = n);
+    }
+}
+
+const gallery = new Gallery();
+
+
+document.getElementById("prevButton").addEventListener("click", () => {
+    gallery.prevSlide();
+});
+
+document.getElementById("nextButton").addEventListener("click", () => {
+    gallery.nextSlide();
+});
+
+document.getElementById("demo1").addEventListener("click", () => {
+    gallery.currentSlide(1);
+});
+
+document.getElementById("demo2").addEventListener("click", () => {
+    gallery.currentSlide(2);
+});
+
+document.getElementById("demo3").addEventListener("click", () => {
+    gallery.currentSlide(3);
+});
+
+document.getElementById("demo4").addEventListener("click", () => {
+    gallery.currentSlide(4);
+});
+
+document.getElementById("demo5").addEventListener("click", () => {
+    gallery.currentSlide(5);
+});
+
+document.getElementById("demo6").addEventListener("click", () => {
+    gallery.currentSlide(6);
+});
+
+// ********************  Gallery end **********************

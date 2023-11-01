@@ -1,9 +1,10 @@
 /********************  Boaz formating start **********************/
 
-body,
+
+/* body,
 html {
     overflow-x: hidden;
-}
+} */
 
 body {
     max-width: 2570px;
@@ -18,6 +19,19 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.container {
+    position: relative;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .d-flex {
@@ -49,7 +63,8 @@ a {
 }
 
 .slider-content__img-text-box__text-box__h1,
-.about-content__h2 {
+.promotions-content__h2,
+.about-content__img-text-box__text-box__h3 {
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -187,58 +202,59 @@ a {
 /********************  Slider formating end **********************/
 
 
-/********************  About formating start **********************/
+/********************  Promotions formating start **********************/
 
-.about-content {
+.promotions-content {
     padding: 2em 5em;
-    background-image: url(../img/about/%.svg);
+    background-image: url(../img/promotions/%.svg);
     background-size: cover;
     background-position: bottom;
     background-position-y: -30em;
     background-repeat: no-repeat;
 }
 
-.about-content__h2,
-.about-content__img-text-box__div__number-box__p,
+.promotions-content__h2,
+.promotions-content__img-text-box__div__number-box__p,
 .page-link {
     color: #373D46;
 }
 
-.about-content__h2 {
+.promotions-content__h2,
+.about-content__img-text-box__text-box__h3 {
     font-size: 2rem;
 }
 
-.about-content__img-text-box {
+.promotions-content__img-text-box {
     flex-wrap: wrap;
 }
 
-.about-content__img-text-box__div {
+.promotions-content__img-text-box__div {
     width: 25%;
 }
 
-.about-content__img-text-box__div__margin-box {
+.promotions-content__img-text-box__div__margin-box {
     margin: 0 0.5em;
 }
 
-.about-content__img-text-box__div__img {
+.promotions-content__img-text-box__div__img {
     width: 100%;
     height: 300px;
 }
 
-.about-content__img-text-box__div__bottom-panel {
+.promotions-content__img-text-box__div__bottom-panel {
     background: #D74558;
     margin-top: -5px;
     justify-content: space-between;
     padding: 1em;
 }
 
-.about-content__img-text-box__div__bottom-panel__p {
+.promotions-content__img-text-box__div__bottom-panel__p {
     margin: 0;
     color: #fff;
 }
 
-.about-content__link-box {
-    margin-top: 5em;
+.promotions-content__link-box {
+    margin: 5em 0 3.5em 0;
 }
 
 .page-link {
@@ -253,7 +269,7 @@ a {
     transition: all 1s;
 }
 
-.about-content__img-text-box__div__number-box {
+.promotions-content__img-text-box__div__number-box {
     top: 1em;
     right: 1.5em;
     background: #FEFFFE;
@@ -261,25 +277,136 @@ a {
     border-radius: 50%;
 }
 
-.about-content__img-text-box__div__number-box__p {
+.promotions-content__img-text-box__div__number-box__p {
     font-weight: 600;
 }
 
-.about-content__img-text-box__div__bottom-panel__p {
+.promotions-content__img-text-box__div__bottom-panel__p {
     font-size: 1.3em;
 }
 
-.about-content__img-text-box__div__bottom-panel__p--font-fomating {
+.promotions-content__img-text-box__div__bottom-panel__p--font-fomating {
     text-decoration: line-through;
     font-weight: 300;
 }
 
-.about-content__img-text-box__div__bottom-panel__p--next-font-formating {
+.promotions-content__img-text-box__div__bottom-panel__p--next-font-formating {
     font-weight: 600;
 }
 
 
+/********************  Promotions formating end **********************/
+
+
+/********************  About formating start **********************/
+
+.about-content__img-text-box__img-box {
+    width: 40%;
+}
+
+.about-content__img-text-box__text-box {
+    width: 60%;
+    background: #f4f4f4;
+    padding: 3em 0 0 5em;
+}
+
+.about-content__img-text-box__img-box__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-content__img-text-box__text-box__p {
+    width: 450px;
+}
+
+.about-content__img-text-box__img-box__one-img-box {
+    bottom: 3em;
+    left: -8em;
+}
+
+.about-content__img-text-box__img-box__one-img-box__img {
+    width: 250px;
+}
+
+
 /********************  About formating end **********************/
+
+
+/********************  Gallery formating start **********************/
+
+.gallery-content__sildes {
+    display: none;
+}
+
+.gallery-content__sildes__img,
+.gallery-content__row__column__img {
+    width: 100%;
+}
+
+.gallery-content__prev,
+.gallery-content__next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.gallery-content__next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.gallery-content__prev:hover,
+.gallery-content__next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.gallery-content__sildes__numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.gallery-content__caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.gallery-content__row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery-content__row__column {
+    float: left;
+    width: 16.66%;
+}
+
+.gallery-content__row__column__demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/********************  Gallery formating end **********************/
 
 
 /********************  Media start **********************/
