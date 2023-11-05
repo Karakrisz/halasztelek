@@ -45,7 +45,6 @@ class Gallery {
         this.slideIndex = 1;
         this.slides = document.getElementsByClassName("gallery-content__sildes");
         this.dots = document.getElementsByClassName("gallery-content__row__column__demo");
-        this.captionText = document.getElementById("gallery-content__caption-container__caption");
         this.showSlide(this.slideIndex);
     }
 
@@ -60,7 +59,6 @@ class Gallery {
         }
         this.slides[this.slideIndex - 1].style.display = "block";
         this.dots[this.slideIndex - 1].classList.add("active");
-        this.captionText.innerHTML = this.dots[this.slideIndex - 1].alt;
     }
 
     nextSlide() {

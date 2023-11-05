@@ -119,9 +119,12 @@
         <div class="about-content__img-text-box d-flex">
 
             <div class="about-content__img-text-box__text-box">
-                <h3 class="about-content__img-text-box__text-box__h3 text-transform-uppercase page-header"> <img
-                        class="page-header__img" src="img/about/line.svg" alt="gazdaesbadogos">
-                    Rólunk</h3>
+
+                <h3 class="about-content__img-text-box__text-box__h3 text-transform-uppercase page-header">
+                    <img class="page-header__img position-relative" src="img/about/line.svg" alt="gazdaesbadogos">
+                    Rólunk
+                </h3>
+
                 <p class="about-content__img-text-box__text-box__p">Lorem ipsum dolor sit amet consectetur. Gravida diam
                     ultricies et a diam. <strong>Donec amet interdum mattis etiam nisi neque dictum
                         scelerisque.</strong> Adipiscing
@@ -154,10 +157,16 @@
 
     <div class="gallery-content">
 
-        <!-- Container for the image gallery -->
+        <div class="gallery-content__page-header-box">
+            <h3 class="gallery-content__h3 text-transform-uppercase page-header"> GALÉRIA
+                <img class="page-header__img gallery-content__page-header-box__img position-relative"
+                    src="img/about/line.svg" alt="gazdaesbadogos">
+            </h3>
+        </div>
+
         <div class="container">
 
-            <!-- Full-width images with number text -->
+
             <div class="gallery-content__sildes">
                 <img class="gallery-content__sildes__img" src="img/gallery/gallery.webp" alt="gazdaesbadogos">
             </div>
@@ -182,17 +191,11 @@
                 <img class="gallery-content__sildes__img" src="img/gallery/gallery6.webp" alt="gazdaesbadogos">
             </div>
 
+            <button class="gallery-content__prev" id="prevButton"><img class="gallery-content__prev__img"
+                    src="img/gallery/g-arrow-left.svg" alt=""></button>
+            <button class="gallery-content__next" id="nextButton"><img class="gallery-content__next__img"
+                    src="img/gallery/g-arrow-right.svg" alt=""></button>
 
-            <!-- Next and previous buttons -->
-            <button class="gallery-content__prev" id="prevButton">Previous</button>
-            <button class="gallery-content__next" id="nextButton">Next</button>
-
-            <!-- Image text -->
-            <div class="gallery-content__caption-container">
-                <p id="gallery-content__caption-container__caption"></p>
-            </div>
-
-            <!-- Thumbnail images -->
             <div class="gallery-content__row">
                 <div class="gallery-content__row__column">
                     <img id="demo1" class="gallery-content__row__column__demo cursor gallery-content__row__column__img"
