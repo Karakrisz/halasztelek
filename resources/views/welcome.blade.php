@@ -158,10 +158,10 @@
     <div class="gallery-content">
 
         <div class="gallery-content__page-header-box">
-            <h3 class="gallery-content__h3 text-transform-uppercase page-header"> GALÉRIA
+            <h4 class="gallery-content__h4 text-transform-uppercase page-header"> GALÉRIA
                 <img class="page-header__img gallery-content__page-header-box__img position-relative"
                     src="img/about/line.svg" alt="gazdaesbadogos">
-            </h3>
+            </h4>
         </div>
 
         <div class="container">
@@ -228,6 +228,82 @@
 
     </div>
 
+</section>
+
+<section>
+
+    <div class="products-content">
+
+        <div class="products-content__header-box">
+            <h5 class="products-content___h5 text-transform-uppercase page-header"> TERMÉKEINK
+                <img class="page-header__img gallery-content__page-header-box__img position-relative"
+                    src="img/about/line.svg" alt="gazdaesbadogos">
+            </h5>
+        </div>
+
+        <div class="products-content__flex-box d-flex">
+
+            <div class="products-content__flex-box__div products-content__flex-box__div--one-bg-img">
+                <div class="products-content__flex-box__div__text-box">
+                    <div class="products-content__flex-box__div__text-box__div position-relative">
+                        <h6 class="products-content__flex-box__div__text-box__div__h6 position-absolute">CSAVAROK
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-content__flex-box__div products-content__flex-box__div--two-bg-img">
+                <div class="products-content__flex-box__div__text-box">
+                    <div class="products-content__flex-box__div__text-box__div position-relative">
+                        <h6 class="products-content__flex-box__div__text-box__div__h6 position-absolute">SZÁRAZ
+                            ÉPÍTÉSZET</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-content__flex-box__div products-content__flex-box__div--three-bg-img">
+                <div class="products-content__flex-box__div__text-box">
+                    <div class="products-content__flex-box__div__text-box__div position-relative">
+                        <h6 class="products-content__flex-box__div__text-box__div__h6 position-absolute">KERTÉSZETI
+                            KELLÉKEK</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="products-content__flex-box d-flex">
+
+            <div class="products-content__flex-box__div products-content__flex-box__div--four-bg-img">
+                <div class="products-content__flex-box__div__text-box">
+                    <div class="products-content__flex-box__div__text-box__div position-relative">
+                        <h6 class="products-content__flex-box__div__text-box__div__h6 position-absolute">SZERSZÁMOK
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-content__flex-box__div products-content__flex-box__div--five-bg-img">
+                <div class="products-content__flex-box__div__text-box">
+                    <div class="products-content__flex-box__div__text-box__div position-relative">
+                        <h6 class="products-content__flex-box__div__text-box__div__h6 position-absolute">
+                            MEZŐGAZDASÁGI FÓLIÁK</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-content__flex-box__div products-content__flex-box__div--six-bg-img">
+                <div class="products-content__flex-box__div__text-box">
+                    <div class="products-content__flex-box__div__text-box__div position-relative">
+                        <h6 class="products-content__flex-box__div__text-box__div__h6 position-absolute">
+                            MEZŐGAZDASÁGI FÓLIÁK</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 @endsection
