@@ -29,7 +29,7 @@
 
         <h2 class="promotions-content__h2 text-transform-uppercase text-center">AKCIÓINK</h2>
 
-        <div class="promotions-content__img-text-box d-flex">
+        <div class="promotions-content__img-text-box d-flex d-flex-wrap">
 
             <div class="promotions-content__img-text-box__div position-relative">
                 <div class="promotions-content__img-text-box__div__number-box position-absolute">
@@ -116,7 +116,7 @@
 
     <div class="about-content">
 
-        <div class="about-content__img-text-box d-flex">
+        <div class="about-content__img-text-box d-flex d-flex-wrap">
 
             <div class="about-content__img-text-box__text-box">
 
@@ -241,7 +241,7 @@
             </h5>
         </div>
 
-        <div class="products-content__flex-box d-flex">
+        <div class="products-content__flex-box d-flex d-flex-wrap">
 
             <div class="products-content__flex-box__div products-content__flex-box__div--one-bg-img">
                 <div class="products-content__flex-box__div__text-box">
@@ -272,7 +272,7 @@
 
         </div>
 
-        <div class="products-content__flex-box d-flex">
+        <div class="products-content__flex-box d-flex d-flex-wrap">
 
             <div class="products-content__flex-box__div products-content__flex-box__div--four-bg-img">
                 <div class="products-content__flex-box__div__text-box">

@@ -59,7 +59,7 @@
             </div>
         </div>
         <nav class="navbar d-flex">
-            <div class="hamburger" id="hamburger">
+            <div class="hamburger position-relative" id="hamburger">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -86,7 +86,7 @@
     </main>
 
     <footer>
-        <div class="footer-content d-flex">
+        <div class="footer-content d-flex d-flex-wrap">
             <div class="footer-content__div footer-content__links-box">
                 <h5 class="footer-content__links-box__h5">Elérhetőség:</h5>
                 <p class="footer-content__links-box__p">
