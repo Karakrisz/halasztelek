@@ -353,7 +353,8 @@ footer {
 
 .about-content__img-text-box__img-box__img,
 .gallery-content__row__column__img,
-.products-content__flex-box__div__text-box__img {
+.products-content__flex-box__div__text-box__img,
+.promotions-content__img-text-box__div__img {
     object-fit: cover;
 }
 
@@ -364,12 +365,12 @@ footer {
 }
 
 .about-content__img-text-box__text-box__p {
-    width: 450px;
+    width: 55%;
 }
 
 .about-content__img-text-box__img-box__one-img-box {
     bottom: 3em;
-    left: -8em;
+    left: -22%;
 }
 
 .about-content__img-text-box__img-box__one-img-box__img {
@@ -595,17 +596,552 @@ footer {
 
 /********************  Media start **********************/
 
-@media (min-width: 2200px) and (max-width: 2570px) {}
+@media (min-width: 2200px) and (max-width: 2570px) {
+    p {
+        font-size: 1.6em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5.7rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.6rem;
+    }
+    .menu li {
+        padding-right: 8.3em;
+    }
+    .menu__link__img {
+        width: 40px;
+    }
+    .slider-content__img-text-box {
+        right: 3em;
+    }
+    .slider-content__img-text-box__text-box__h1 {
+        font-size: 3.5em;
+    }
+    .slider-content__img-text-box__img-box__img {
+        width: 100%;
+        margin-top: 4.3em;
+    }
+    .promotions-content__img-text-box__div__img {
+        height: 500px;
+    }
+    .promotions-content__h2,
+    .about-content__img-text-box__text-box__h3,
+    .gallery-content__h4,
+    .products-content___h5 {
+        font-size: 3rem;
+    }
+    .promotions-content__img-text-box__div__number-box {
+        padding: .5em 1.2em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel {
+        padding: 2em;
+    }
+    .promotions-content__h2 {
+        margin-top: 1.5em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel__p {
+        font-size: 1.7em;
+    }
+    .page-link {
+        font-size: 1.5rem;
+    }
+    .promotions-content__link-box {
+        margin: 8em 0 5.9em 0;
+    }
+    .about-content__img-text-box__img-box__one-img-box__img {
+        width: 400px;
+    }
+    .gallery-content__row__column__img {
+        height: 250px;
+    }
+    .gallery-content__h4,
+    .products-content___h5 {
+        margin-top: 2.5em;
+    }
+    .products-content__flex-box__div {
+        height: 700px;
+    }
+    .products-content__flex-box__div__text-box__div__h6 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .footer-content__links-box__h5,
+    .footer-content__opening-hours__div__h5 {
+        font-size: 2.2rem;
+    }
+    .footer-content__links-box__p__link,
+    .footer-content__opening-hours__div__p {
+        font-size: 1.5rem;
+    }
+    .footer-content {
+        padding: 4.7em 5em 1em 5em;
+    }
+}
 
-@media (min-width: 2000px) and (max-width: 2200px) {}
+@media (min-width: 2000px) and (max-width: 2200px) {
+    p {
+        font-size: 1.5em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5.7rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.5rem;
+    }
+    .menu li {
+        padding-right: 7em;
+    }
+    .menu__link__img {
+        width: 40px;
+    }
+    .slider-content__img-text-box {
+        right: 3em;
+    }
+    .slider-content__img-text-box__text-box__h1 {
+        font-size: 3.1em;
+    }
+    .slider-content__img-text-box__img-box__img {
+        width: 100%;
+        margin-top: 3.3em;
+    }
+    .promotions-content__img-text-box__div__img {
+        height: 450px;
+    }
+    .promotions-content__h2,
+    .about-content__img-text-box__text-box__h3,
+    .gallery-content__h4,
+    .products-content___h5 {
+        font-size: 3rem;
+    }
+    .promotions-content__img-text-box__div__number-box {
+        padding: .5em 1.2em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel {
+        padding: 2em;
+    }
+    .promotions-content__h2 {
+        margin-top: 1.5em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel__p {
+        font-size: 1.7em;
+    }
+    .page-link {
+        font-size: 1.5rem;
+    }
+    .promotions-content__link-box {
+        margin: 8em 0 5.9em 0;
+    }
+    .about-content__img-text-box__img-box__one-img-box__img {
+        width: 360px;
+    }
+    .gallery-content__row__column__img {
+        height: 250px;
+    }
+    .gallery-content__h4,
+    .products-content___h5 {
+        margin-top: 2.5em;
+    }
+    .products-content__flex-box__div {
+        height: 700px;
+    }
+    .products-content__flex-box__div__text-box__div__h6 {
+        font-size: 3.2rem;
+        line-height: 3.5rem;
+    }
+    .footer-content__links-box__h5,
+    .footer-content__opening-hours__div__h5 {
+        font-size: 2.1rem;
+    }
+    .footer-content__links-box__p__link,
+    .footer-content__opening-hours__div__p {
+        font-size: 1.3rem;
+    }
+    .footer-content {
+        padding: 4.3em 5em 1em 5em;
+    }
+}
 
-@media (min-width: 1800px) and (max-width: 2000px) {}
+@media (min-width: 2000px) and (max-width: 2200px) {
+    p {
+        font-size: 1.5em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5.7rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.5rem;
+    }
+    .menu li {
+        padding-right: 8em;
+    }
+}
 
-@media (min-width: 1600px) and (max-width: 1800px) {}
+@media (min-width: 1800px) and (max-width: 2000px) {
+    p {
+        font-size: 1.4em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5.7rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.4rem;
+    }
+    .menu li {
+        padding-right: 7em;
+    }
+    .menu__link__img {
+        width: 40px;
+    }
+    .slider-content__img-text-box {
+        right: 3em;
+    }
+    .slider-content__img-text-box__text-box__h1 {
+        font-size: 2.7em;
+    }
+    .slider-content__img-text-box__img-box__img {
+        width: 100%;
+        margin-top: 2.6em;
+    }
+    .promotions-content__img-text-box__div__img {
+        height: 400px;
+    }
+    .promotions-content__h2,
+    .about-content__img-text-box__text-box__h3,
+    .gallery-content__h4,
+    .products-content___h5 {
+        font-size: 2.8rem;
+    }
+    .promotions-content__img-text-box__div__number-box {
+        padding: 0.2em 0.8em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel {
+        padding: 1.7em;
+    }
+    .promotions-content__h2 {
+        margin-top: 1.5em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel__p {
+        font-size: 1.7em;
+    }
+    .page-link {
+        font-size: 1.3rem;
+    }
+    .promotions-content__link-box {
+        margin: 8em 0 5.9em 0;
+    }
+    .about-content__img-text-box__img-box__one-img-box__img {
+        width: 320px;
+    }
+    .gallery-content__row__column__img {
+        height: 230px;
+    }
+    .gallery-content__h4,
+    .products-content___h5 {
+        margin-top: 2.5em;
+    }
+    .products-content__flex-box__div {
+        height: 700px;
+    }
+    .products-content__flex-box__div__text-box__div__h6 {
+        font-size: 3.1rem;
+        line-height: 3.3rem;
+    }
+    .footer-content__links-box__h5,
+    .footer-content__opening-hours__div__h5 {
+        font-size: 2.1rem;
+    }
+    .footer-content__links-box__p__link,
+    .footer-content__opening-hours__div__p {
+        font-size: 1.3rem;
+    }
+    .footer-content {
+        padding: 4.3em 5em 1em 5em;
+    }
+}
 
-@media (min-width: 1500px) and (max-width: 1600px) {}
+@media (min-width: 1600px) and (max-width: 1800px) {
+    p {
+        font-size: 1.3em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5.7rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.3rem;
+    }
+    .menu li {
+        padding-right: 5em;
+    }
+    .menu__link__img {
+        width: 40px;
+    }
+    .slider-content__img-text-box {
+        right: 3em;
+    }
+    .slider-content__img-text-box__text-box__h1 {
+        font-size: 2.7em;
+    }
+    .slider-content__img-text-box__img-box__img {
+        width: 90%;
+        margin-top: 2.7em;
+    }
+    .promotions-content__img-text-box__div__img {
+        height: 350px;
+    }
+    .promotions-content__h2,
+    .about-content__img-text-box__text-box__h3,
+    .gallery-content__h4,
+    .products-content___h5 {
+        font-size: 2.8rem;
+    }
+    .promotions-content__img-text-box__div__number-box {
+        padding: 0.2em 0.8em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel {
+        padding: 1.7em;
+    }
+    .promotions-content__h2 {
+        margin-top: 1.5em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel__p {
+        font-size: 1.7em;
+    }
+    .page-link {
+        font-size: 1.3rem;
+    }
+    .promotions-content__link-box {
+        margin: 8em 0 5.9em 0;
+    }
+    .about-content__img-text-box__img-box__one-img-box__img {
+        width: 280px;
+    }
+    .gallery-content__row__column__img {
+        height: 230px;
+    }
+    .gallery-content__h4,
+    .products-content___h5 {
+        margin-top: 2.5em;
+    }
+    .products-content__flex-box__div {
+        height: 600px;
+    }
+    .products-content__flex-box__div__text-box__div__h6 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+    .footer-content__links-box__h5,
+    .footer-content__opening-hours__div__h5 {
+        font-size: 2.1rem;
+    }
+    .footer-content__links-box__p__link,
+    .footer-content__opening-hours__div__p {
+        font-size: 1.2rem;
+    }
+    .footer-content {
+        padding: 4.3em 5em 1em 5em;
+    }
+}
 
-@media (min-width: 1400px) and (max-width: 1500px) {}
+@media (min-width: 1500px) and (max-width: 1600px) {
+    p {
+        font-size: 1.2em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5.7rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.3rem;
+    }
+    .menu li {
+        padding-right: 4.5em;
+    }
+    .menu__link__img {
+        width: 40px;
+    }
+    .slider-content__img-text-box {
+        right: 3em;
+    }
+    .slider-content__img-text-box__text-box__h1 {
+        font-size: 2.7em;
+    }
+    .slider-content__img-text-box__img-box__img {
+        width: 90%;
+        margin-top: 2.7em;
+    }
+    .promotions-content__img-text-box__div__img {
+        height: 320px;
+    }
+    .promotions-content__h2,
+    .about-content__img-text-box__text-box__h3,
+    .gallery-content__h4,
+    .products-content___h5 {
+        font-size: 2.5rem;
+    }
+    .promotions-content__img-text-box__div__number-box {
+        padding: 0.2em 0.8em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel {
+        padding: 1.3em;
+    }
+    .promotions-content__h2 {
+        margin-top: 1.5em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel__p {
+        font-size: 1.5em;
+    }
+    .page-link {
+        font-size: 1.1rem;
+    }
+    .promotions-content__link-box {
+        margin: 6em 0 4em 0;
+    }
+    .about-content__img-text-box__img-box__one-img-box__img {
+        width: 280px;
+    }
+    .gallery-content__row__column__img {
+        height: 230px;
+    }
+    .gallery-content__h4,
+    .products-content___h5 {
+        margin-top: 2.5em;
+    }
+    .products-content__flex-box__div {
+        height: 500px;
+    }
+    .products-content__flex-box__div__text-box__div__h6 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+    .footer-content__links-box__h5,
+    .footer-content__opening-hours__div__h5 {
+        font-size: 1.9rem;
+    }
+    .footer-content__links-box__p__link,
+    .footer-content__opening-hours__div__p {
+        font-size: 1.1rem;
+    }
+    .footer-content {
+        padding: 4.3em 5em 1em 5em;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    p {
+        font-size: 1.2em;
+    }
+    .navbar-logo-box {
+        width: 9.5%;
+    }
+    .menu {
+        min-height: 5rem;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1.3rem;
+    }
+    .menu li {
+        padding-right: 4em;
+    }
+    .menu__link__img {
+        width: 40px;
+    }
+    .slider-content__img-text-box {
+        right: 3em;
+    }
+    .slider-content__img-text-box__text-box__h1 {
+        font-size: 2.7em;
+    }
+    .slider-content__img-text-box__img-box__img {
+        width: 90%;
+        margin-top: 2.7em;
+    }
+    .about-content__img-text-box__text-box {
+        padding: 3em 0 3em 5em;
+    }
+    .promotions-content__img-text-box__div__img {
+        height: 300px;
+    }
+    .promotions-content__h2,
+    .about-content__img-text-box__text-box__h3,
+    .gallery-content__h4,
+    .products-content___h5 {
+        font-size: 2.3rem;
+    }
+    .promotions-content__img-text-box__div__number-box {
+        padding: 0.2em 0.8em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel {
+        padding: 1.3em;
+    }
+    .promotions-content__h2 {
+        margin-top: 1.5em;
+    }
+    .promotions-content__img-text-box__div__bottom-panel__p {
+        font-size: 1.5em;
+    }
+    .page-link {
+        font-size: 1.1rem;
+    }
+    .promotions-content__link-box {
+        margin: 6em 0 4em 0;
+    }
+    .about-content__img-text-box__img-box__one-img-box__img {
+        width: 280px;
+    }
+    .gallery-content__row__column__img {
+        height: 170px;
+    }
+    .gallery-content__h4,
+    .products-content___h5 {
+        margin-top: 2.5em;
+    }
+    .products-content__flex-box__div {
+        height: 500px;
+    }
+    .products-content__flex-box__div__text-box__div__h6 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+    .footer-content__links-box__h5,
+    .footer-content__opening-hours__div__h5 {
+        font-size: 1.8rem;
+    }
+    .footer-content__links-box__p__link,
+    .footer-content__opening-hours__div__p {
+        font-size: 1.1rem;
+    }
+    .footer-content__links-box__p {
+        width: 90%;
+    }
+    .footer-content {
+        padding: 4.3em 5em 1em 5em;
+    }
+}
 
 @media (min-width: 1200px) and (max-width: 1400px) {}
 
