@@ -67,6 +67,14 @@ button {
     text-align: center;
 }
 
+.map {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 .page-header__img {
     margin-right: 0.5em;
     top: -0.19em;
@@ -87,7 +95,9 @@ button {
 
 header,
 p,
-a {
+a,
+.footer-content__links-box__h5,
+.footer-content__opening-hours__div__h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -122,7 +132,6 @@ a {
 
 .menu {
     list-style: none;
-    background-color: #D74558;
     flex-wrap: wrap;
     align-items: center;
     padding-right: 4.7%;
@@ -130,12 +139,17 @@ a {
     min-height: 4rem;
 }
 
+.menu,
+footer {
+    background-color: #D74558;
+}
+
 .menu.active {
     right: 0;
 }
 
 .menu li {
-    padding-right: 4.7em;
+    padding-right: 5em;
 }
 
 .menu__elem--pr-0 {
@@ -205,11 +219,12 @@ a {
     color: #fff;
     width: 45%;
     float: right;
+    font-size: 2.5em;
 }
 
 .slider-content__img-text-box__img-box__img {
-    width: 60%;
-    margin-top: 2em;
+    width: 80%;
+    margin-top: 2.5em;
 }
 
 
@@ -343,7 +358,8 @@ a {
 }
 
 .about-content__img-text-box__img-box__img,
-.products-content__flex-box__div__text-box {
+.products-content__flex-box__div__text-box,
+.footer-content__google-map__div {
     height: 100%;
 }
 
@@ -474,12 +490,13 @@ a {
     padding: 1em 0 1em 5em;
 }
 
-.products-content__flex-box__div {
+.products-content__flex-box__div,
+.footer-content__div {
     width: 34%;
 }
 
-.products-content__flex-box__div--one-bg-img,
-.products-content__flex-box__div--two-bg-img {
+.products-content__flex-box__div {
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -508,13 +525,13 @@ a {
 }
 
 .products-content__flex-box__div {
-    height: 450px;
+    height: 500px;
 }
 
 .products-content__flex-box__div__text-box__div {
     border: 5px solid #fff;
     margin: 1rem;
-    height: 92.5%;
+    height: 93.5%;
 }
 
 .products-content__flex-box__div__text-box__div__h6 {
@@ -531,7 +548,70 @@ a {
 /********************  Products formating end **********************/
 
 
+/********************  Footer formating start **********************/
+
+.footer-content {
+    padding: 3em 5em 1em 5em;
+    color: #fff;
+}
+
+.footer-content__links-box__h5,
+.footer-content__opening-hours__div__h5 {
+    font-size: 1.3rem;
+}
+
+.footer-content__links-box__p,
+.footer-content__opening-hours__div__p {
+    margin: 1em 0;
+}
+
+.footer-content__links-box__p__link,
+.footer-content__opening-hours__div__p {
+    font-size: 1rem;
+}
+
+.footer-content__links-box__p__link {
+    color: #fff;
+}
+
+.footer-content__google-map__div__iframe {
+    height: 90%;
+    width: 100%;
+}
+
+.footer-content__links-box__p__img {
+    width: 13px;
+    top: 0.1em;
+    margin-right: 0.5em;
+}
+
+.footer-content__opening-hours__div {
+    width: 50%;
+}
+
+
+/********************  Footer formating end **********************/
+
+
 /********************  Media start **********************/
+
+@media (min-width: 2200px) and (max-width: 2570px) {}
+
+@media (min-width: 2000px) and (max-width: 2200px) {}
+
+@media (min-width: 1800px) and (max-width: 2000px) {}
+
+@media (min-width: 1600px) and (max-width: 1800px) {}
+
+@media (min-width: 1500px) and (max-width: 1600px) {}
+
+@media (min-width: 1400px) and (max-width: 1500px) {}
+
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+@media (min-width: 991px) and (max-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
 
 @media screen and (max-width: 767px) {
     .hamburger {
@@ -568,6 +648,14 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+@media (min-width: 640px) and (max-width: 768px) {}
+
+@media (min-width: 500px) and (max-width: 640px) {}
+
+@media (min-width: 400px) and (max-width: 500px) {}
+
+@media (min-width: 300px) and (max-width: 400px) {}
 
 
 /********************  Media end **********************/
