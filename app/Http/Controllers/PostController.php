@@ -15,8 +15,7 @@ class PostController extends Controller
 
         // $posts = Post::with('category')->get();
         $posts = Post::with('category')->latest()->take(3)->get();
-
-        return view('welcome', compact('posts'));
+        return $posts;
     }
 
     public function show(Post $post)
