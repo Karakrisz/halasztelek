@@ -38,6 +38,30 @@ const menuManager = new MenuManager('hamburger', 'menu', '.navbar');
 
 // ********************  Menu end **********************
 
+// ********************  Slider start **********************
+
+
+class MatrixTextAnimation {
+    constructor(selector) {
+        this.matrixText = document.querySelectorAll(selector);
+    }
+
+    animateLetters() {
+        this.matrixText.forEach((letter, index) => {
+            setTimeout(() => {
+                letter.style.opacity = "1";
+                letter.style.transform = "translateY(0)";
+            }, index * 50);
+        });
+    }
+}
+
+
+const matrixTextAnimation = new MatrixTextAnimation(".matrix-text__span");
+matrixTextAnimation.animateLetters();
+
+// ********************  Slider end **********************
+
 // ********************  Gallery start **********************
 
 class Gallery {

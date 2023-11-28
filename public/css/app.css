@@ -209,6 +209,13 @@ footer {
 
 /********************  Slider formating start **********************/
 
+.matrix-text__span {
+    opacity: 0;
+    display: inline-block;
+    transform: translateY(100%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
 .slider-content__img {
     width: 100%;
     height: 100%;
@@ -1678,7 +1685,7 @@ footer {
     }
     .header__right-box__div__link,
     .menu li a {
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .menu li {
         padding-right: 1em;
@@ -1740,7 +1747,7 @@ footer {
         padding: 0.1em 0.5em;
     }
     .promotions-content__img-text-box__div__bottom-panel {
-        padding: 1.5em;
+        padding: 1em;
     }
     .promotions-content__h2 {
         margin-top: 1em;

@@ -9,8 +9,27 @@
         <div class="slider-content__img-text-box d-flex position-absolute">
 
             <div class="slider-content__img-text-box__text-box t-end">
-                <h1 class="slider-content__img-text-box__text-box__h1 text-transform-uppercase">Vevő innen nem mehet el
-                    üres kézzel. Ha mégis olyat szeretne ami nincs, akkor az holnap már készleten van.</h1>
+                <h1 class="slider-content__img-text-box__text-box__h1 text-transform-uppercase matrix-text">
+                    <span class="matrix-text__span">Vevő</span>
+                    <span class="matrix-text__span">innen</span>
+                    <span class="matrix-text__span">nem</span>
+                    <span class="matrix-text__span">mehet</span>
+                    <span class="matrix-text__span">el</span>
+                    <span class="matrix-text__span">üres</span>
+                    <span class="matrix-text__span">kézzel.</span>
+                    <span class="matrix-text__span">Ha</span>
+                    <span class="matrix-text__span">mégis</span>
+                    <span class="matrix-text__span">olyat</span>
+                    <span class="matrix-text__span">szeretne,</span>
+                    <span class="matrix-text__span">ami</span>
+                    <span class="matrix-text__span">nincs,</span>
+                    <span class="matrix-text__span">akkor</span>
+                    <span class="matrix-text__span">az</span>
+                    <span class="matrix-text__span">holnap</span>
+                    <span class="matrix-text__span">már</span>
+                    <span class="matrix-text__span">készleten</span>
+                    <span class="matrix-text__span">van.</span>
+                </h1>
             </div>
 
             <div class="slider-content__img-text-box__img-box">
@@ -147,6 +166,11 @@
                     környezetük fontos dolgairól. Élt szépen Miklós feleségével és gyermekével, és talán nem is változik
                     semmi, ha egyszer egy ismerős nem ajánl fel neki megvételre egy halásztelki kis bolthelyiséget.
                     Mondván ők Németországba költözne, és szeretnék a kis helyiséget gondos gazdára bízni.</p>
+
+                <div class="about-content__img-text-box__text-box__link-box">
+                    <a class="about-content__img-text-box__text-box__link-box__link"
+                        href="{{ route('rolunk') }}">Tovább</a>
+                </div>
             </div>
 
             <div class="about-content__img-text-box__img-box position-relative">

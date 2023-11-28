@@ -43,7 +43,7 @@
             <div class="header__right-box__div">
                 <a class="header__right-box__div__link" target="_blank"
                     href="https://www.google.com/maps/place/Hal%C3%A1sztelek,+II.+R%C3%A1k%C3%B3czi+Ferenc+%C3%BAt+58,+2314/@47.3606318,18.9849686,17z/data=!3m1!4b1!4m6!3m5!1s0x4741e5d31bee69f3:0xbc33a92d2f9d9f01!8m2!3d47.3606282!4d18.9875435!16s%2Fg%2F11c249tqpd?authuser=0&entry=ttu">
-                    <img class="header__right-box__div__link__img position-relative" src="img/header/map-icon.svg"
+                    <img class="header__right-box__div__link__img position-relative" src="/img/header/map-icon.svg"
                         alt="gazdaesbadogos">
                     2314
                     Halásztelek ,
@@ -53,7 +53,7 @@
 
             <div class="header__right-box__div">
                 <a class="header__right-box__div__link" href="tel:+3624450402">
-                    <img class="header__right-box__div__link__img position-relative" src="img/header/phone-icon.svg"
+                    <img class="header__right-box__div__link__img position-relative" src="/img/header/phone-icon.svg"
                         alt="gazdaesbadogos">
                     +36 24 450402</a>
             </div>
@@ -66,7 +66,7 @@
             </div>
             <div class="navbar-logo-box">
                 <a href="/">
-                    <img class="navbar-logo-box__img" src="img/header/logo.jpg" alt="gazdaesbadogos">
+                    <img class="navbar-logo-box__img" src="/img/header/logo.jpg" alt="gazdaesbadogos">
                 </a>
             </div>
             <ul class="menu d-flex" id="menu">
@@ -92,7 +92,7 @@
             <div class="footer-content__div footer-content__links-box">
                 <h5 class="footer-content__links-box__h5">Elérhetőség:</h5>
                 <p class="footer-content__links-box__p">
-                    <img class="footer-content__links-box__p__img position-relative" src="img/footer/map.svg"
+                    <img class="footer-content__links-box__p__img position-relative" src="/img/footer/map.svg"
                         alt="gazdaesbadogos">
                     <a target="_blank" class="footer-content__links-box__p__link"
                         href="https://www.google.com/maps/place/Hal%C3%A1sztelek,+II.+R%C3%A1k%C3%B3czi+Ferenc+%C3%BAt+58,+2314/@47.3606318,18.9849686,17z/data=!3m1!4b1!4m6!3m5!1s0x4741e5d31bee69f3:0xbc33a92d2f9d9f01!8m2!3d47.3606282!4d18.9875435!16s%2Fg%2F11c249tqpd?authuser=0&entry=ttu">2314
@@ -101,19 +101,19 @@
                         út 58/A</a>
                 </p>
                 <p class="footer-content__links-box__p">
-                    <img class="footer-content__links-box__p__img position-relative" src="img/footer/mobil.svg"
+                    <img class="footer-content__links-box__p__img position-relative" src="/img/footer/mobil.svg"
                         alt="gazdaesbadogos">
                     <a class="footer-content__links-box__p__link" href="tel:+36706768368">Istenes Tímea +36 70 67 68
                         368</a>
                 </p>
                 <p class="footer-content__links-box__p">
-                    <img class="footer-content__links-box__p__img position-relative" src="img/footer/mobil.svg"
+                    <img class="footer-content__links-box__p__img position-relative" src="/img/footer/mobil.svg"
                         alt="gazdaesbadogos">
                     <a class="footer-content__links-box__p__link" href="tel:+36704297262">Istenes Tamás +36 70 42 97
                         262</a>
                 </p>
                 <p class="footer-content__links-box__p">
-                    <img class="footer-content__links-box__p__img position-relative" src="img/footer/telephone.svg"
+                    <img class="footer-content__links-box__p__img position-relative" src="/img/footer/telephone.svg"
                         alt="gazdaesbadogos">
                     <a class="footer-content__links-box__p__link" href="tel:+3624450402">Bolt telefon +36 24 450
                         402</a>
