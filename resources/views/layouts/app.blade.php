@@ -77,8 +77,8 @@
                 <li><a href="{{ route('blog') }}">Blog</a></li>
                 <li><a href="{{ route('kapcsolat') }}">Kapcsolat</a></li>
                 <li><a class="menu__elem__link--font-w" href="{{ route('akciok') }}">AKCIÓK</a></li>
-                <li class="menu__elem--pr-0"><a href="#"><img class="menu__link__img" src="img/header/facebook-icon.svg"
-                            alt="gazdaesbadogos"></a></li>
+                <li class="menu__elem--pr-0"><a href="#"><img class="menu__link__img"
+                            src="/img/header/facebook-icon.svg" alt="gazdaesbadogos"></a></li>
             </ul>
         </nav>
     </header>

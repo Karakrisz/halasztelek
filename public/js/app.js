@@ -38,6 +38,64 @@ const menuManager = new MenuManager('hamburger', 'menu', '.navbar');
 
 // ********************  Menu end **********************
 
+// ********************  Bottom Animation start **********************
+
+class ScrollBottomAnimation {
+    constructor(element) {
+        this.element = element;
+        this.init();
+    }
+
+    init() {
+        this.addScrollListener();
+    }
+
+    addScrollListener() {
+        window.addEventListener('scroll', () => this.checkScroll());
+    }
+
+    checkScroll() {
+        const boxTop = this.element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (boxTop < windowHeight) {
+            this.element.classList.add('animate-in');
+            window.removeEventListener('scroll', () => this.checkScroll);
+        }
+    }
+}
+
+
+const promotionsImg = document.querySelectorAll('.promotions-content__img-text-box__div');
+const pageLinkBox = document.querySelectorAll('.promotions-content__link-box');
+const aboutImg = document.querySelectorAll('.about-content__img-text-box__img-box__one-img-box');
+const gallerySlies = document.querySelectorAll('.gallery-content__sildes');
+const products = document.querySelectorAll('.products-content__flex-box__div');
+
+promotionsImg.forEach(element => {
+    new ScrollBottomAnimation(element);
+});
+
+pageLinkBox.forEach(element => {
+    new ScrollBottomAnimation(element);
+});
+
+aboutImg.forEach(element => {
+    new ScrollBottomAnimation(element);
+});
+
+gallerySlies.forEach(element => {
+    new ScrollBottomAnimation(element);
+});
+
+products.forEach(element => {
+    new ScrollBottomAnimation(element);
+});
+
+
+
+// ********************  Bottom Animation end **********************
+
 // ********************  Slider start **********************
 
 
