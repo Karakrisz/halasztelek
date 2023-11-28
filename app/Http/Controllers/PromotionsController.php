@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-class BlogController extends Controller
+class PromotionsController extends Controller
 {
     public function index()
     {
         $data = [
-            'title' => 'Blog',
+            'title' => 'Akciók',
             'content' => ''
         ];
     
-        return view('blog.blog', $data);
+        return view('promotions.akciok', $data);
     }
 
 }

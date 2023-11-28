@@ -4,15 +4,13 @@
 
 <section>
     <div class="slider-content position-relative">
-        <img class="slider-content__img" src="img/slider/slider.webp" alt="gazdaesbadogos">
+        <img class="slider-content__img" src="/img/slider/slider.webp" alt="gazdaesbadogos">
 
         <div class="slider-content__img-text-box d-flex position-absolute">
 
             <div class="slider-content__img-text-box__text-box t-end">
-                <h1 class="slider-content__img-text-box__text-box__h1 text-transform-uppercase">Lorem ipsum dolor sit
-                    amet
-                    consectetur iaculis eu
-                    vitae aenean</h1>
+                <h1 class="slider-content__img-text-box__text-box__h1 text-transform-uppercase">Vevő innen nem mehet el
+                    üres kézzel. Ha mégis olyat szeretne ami nincs, akkor az holnap már készleten van.</h1>
             </div>
 
             <div class="slider-content__img-text-box__img-box">
@@ -38,6 +36,9 @@
                 <div class="promotions-content__img-text-box__div__margin-box">
                     <img class="promotions-content__img-text-box__div__img" src="img/promotions/product.webp"
                         alt="gazdaesbadogos">
+                    <div class="promotions-content__img-text-box__div__name-panel">
+                        <p class="promotions-content__img-text-box__div__name-panel__p">Termék neve</p>
+                    </div>
                     <div class="promotions-content__img-text-box__div__bottom-panel d-flex">
                         <p class="promotions-content__img-text-box__div__bottom-panel__p 
                             promotions-content__img-text-box__div__bottom-panel__p--font-fomating">
@@ -56,6 +57,9 @@
                 <div class="promotions-content__img-text-box__div__margin-box">
                     <img class="promotions-content__img-text-box__div__img" src="img/promotions/product-2.webp"
                         alt="gazdaesbadogos">
+                    <div class="promotions-content__img-text-box__div__name-panel">
+                        <p class="promotions-content__img-text-box__div__name-panel__p">Termék neve</p>
+                    </div>
                     <div class="promotions-content__img-text-box__div__bottom-panel d-flex">
                         <p class="promotions-content__img-text-box__div__bottom-panel__p 
                             promotions-content__img-text-box__div__bottom-panel__p--font-fomating">
@@ -74,6 +78,9 @@
                 <div class="promotions-content__img-text-box__div__margin-box">
                     <img class="promotions-content__img-text-box__div__img" src="img/promotions/product-3.webp"
                         alt="gazdaesbadogos">
+                    <div class="promotions-content__img-text-box__div__name-panel">
+                        <p class="promotions-content__img-text-box__div__name-panel__p">Termék neve</p>
+                    </div>
                     <div class="promotions-content__img-text-box__div__bottom-panel d-flex">
                         <p class="promotions-content__img-text-box__div__bottom-panel__p 
                             promotions-content__img-text-box__div__bottom-panel__p--font-fomating">
@@ -92,6 +99,9 @@
                 <div class="promotions-content__img-text-box__div__margin-box">
                     <img class="promotions-content__img-text-box__div__img" src="img/promotions/product-4.webp"
                         alt="gazdaesbadogos">
+                    <div class="promotions-content__img-text-box__div__name-panel">
+                        <p class="promotions-content__img-text-box__div__name-panel__p">Termék neve</p>
+                    </div>
                     <div class="promotions-content__img-text-box__div__bottom-panel d-flex">
                         <p class="promotions-content__img-text-box__div__bottom-panel__p 
                             promotions-content__img-text-box__div__bottom-panel__p--font-fomating">
@@ -106,7 +116,7 @@
         </div>
 
         <div class="promotions-content__link-box text-center">
-            <a class="page-link" href="#">Összes akció</a>
+            <a class="page-link" href="{{ route('akciok') }}">Összes akció</a>
         </div>
 
     </div>
@@ -124,19 +134,19 @@
                     <img class="page-header__img position-relative" src="img/about/line.svg" alt="gazdaesbadogos">
                     Rólunk
                 </h3>
-
-                <p class="about-content__img-text-box__text-box__p">Lorem ipsum dolor sit amet consectetur. Gravida diam
-                    ultricies et a diam. <strong>Donec amet interdum mattis etiam nisi neque dictum
-                        scelerisque.</strong> Adipiscing
-                    quisque tempor cursus amet turpis quis. Sodales facilisis risus a proin consectetur. <br>
-                    <strong> Arcu tempor ut convallis nam. Tempus feugiat tellus ut malesuada. </strong>
+                <p class="about-content__img-text-box__text-box__p">Volt egyszer egy szűcsmester kit Istenes Miklósnak
+                    hívtak. Miklós szerette a választott mesterségét, és a megrendelői szerint szép munkát is végzett.
+                    Tehette is, hiszen vérében volt az ügyfelek iránti tisztelet, és segíteni akarás. Munka után Miklós
+                    mindig szívesen tett vett a ház körül, és akkor volt nyugodt, ha a kamrájában minden szükséges
+                    eszköz a rendelkezésére állt.
                 </p>
-                <p class="about-content__img-text-box__text-box__p"> Euismod diam sed
-                    volutpat
-                    ante
-                    nulla vel sit. Felis dui libero rhoncus nec in orci nibh odio neque. Pulvinar iaculis neque egestas
-                    arcu mi placerat diam a. Tempor sit nibh venenatis ultrices molestie mi eu et. Pellentesque dui
-                    mauris pharetra tincidunt amet lectus.</p>
+                <p class="about-content__img-text-box__text-box__p">Erről a tulajdonságáról a környékbeliek is tudtak,
+                    így gyakran járt
+                    nála szomszéd, jóbarát, hogy kölcsönkérjen kapát kaszát, vagy éppen vetőmagot. Miklós ezt nagyon
+                    szerette, mert ilyenkor lehetősége volt a földijeivel néhány szót váltani az élet, és szűkebb
+                    környezetük fontos dolgairól. Élt szépen Miklós feleségével és gyermekével, és talán nem is változik
+                    semmi, ha egyszer egy ismerős nem ajánl fel neki megvételre egy halásztelki kis bolthelyiséget.
+                    Mondván ők Németországba költözne, és szeretnék a kis helyiséget gondos gazdára bízni.</p>
             </div>
 
             <div class="about-content__img-text-box__img-box position-relative">

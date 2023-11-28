@@ -11,7 +11,7 @@
         style-src 'self' https: 'unsafe-inline';
         script-src 'self' https: 'unsafe-inline' 'unsafe-eval';
     ">
-    <title>Gazda és Bádogbolt Halásztelek</title>
+    <title>@yield('title', 'Gazda és Bádogbolt Halásztelek')</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,16 +65,18 @@
                 <div class="bar"></div>
             </div>
             <div class="navbar-logo-box">
-                <img class="navbar-logo-box__img" src="img/header/logo.jpg" alt="gazdaesbadogos">
+                <a href="/">
+                    <img class="navbar-logo-box__img" src="img/header/logo.jpg" alt="gazdaesbadogos">
+                </a>
             </div>
             <ul class="menu d-flex" id="menu">
-                <li><a href="#">Főoldal</a></li>
-                <li><a href="#">Rólunk</a></li>
-                <li><a href="#">Galéria</a></li>
-                <li><a href="#">Termékeink</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Kapcsolat</a></li>
-                <li><a class="menu__elem__link--font-w" href="#">AKCIÓK</a></li>
+                <li><a href="/">Főoldal</a></li>
+                <li><a href="{{ route('rolunk') }}">Rólunk</a></li>
+                <li><a href="{{ route('galeria') }}">Galéria</a></li>
+                <!-- <li><a href="#">Termékeink</a></li> -->
+                <li><a href="{{ route('blog') }}">Blog</a></li>
+                <li><a href="{{ route('kapcsolat') }}">Kapcsolat</a></li>
+                <li><a class="menu__elem__link--font-w" href="{{ route('akciok') }}">AKCIÓK</a></li>
                 <li class="menu__elem--pr-0"><a href="#"><img class="menu__link__img" src="img/header/facebook-icon.svg"
                             alt="gazdaesbadogos"></a></li>
             </ul>
@@ -153,7 +155,7 @@
                 </div>
             </div>
         </div>
-        <script src="js/app.js"></script>
+        <script src="/js/app.js"></script>
     </footer>
 
 </body>

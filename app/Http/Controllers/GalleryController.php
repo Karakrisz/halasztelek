@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-class BlogController extends Controller
+class GalleryController extends Controller
 {
     public function index()
     {
         $data = [
-            'title' => 'Blog',
+            'title' => 'Galéria',
             'content' => ''
         ];
     
-        return view('blog.blog', $data);
+        return view('gallery.galeria', $data);
     }
 
 }

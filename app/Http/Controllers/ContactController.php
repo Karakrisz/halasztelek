@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-class BlogController extends Controller
+class ContactController extends Controller
 {
     public function index()
     {
         $data = [
-            'title' => 'Blog',
+            'title' => 'Kapcsolat',
             'content' => ''
         ];
     
-        return view('blog.blog', $data);
+        return view('contact.kapcsolat', $data);
     }
 
 }
