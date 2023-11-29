@@ -168,7 +168,7 @@
                     Mondván ők Németországba költözne, és szeretnék a kis helyiséget gondos gazdára bízni.</p>
 
                 <div class="about-content__img-text-box__text-box__link-box">
-                    <a class="about-content__img-text-box__text-box__link-box__link"
+                    <a class="about-content__img-text-box__text-box__link-box__link page-link"
                         href="{{ route('rolunk') }}">Tovább</a>
                 </div>
             </div>
