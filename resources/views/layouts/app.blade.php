@@ -19,17 +19,22 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- favicons Icons -->
+    <link rel="icon" href="/img/header/logo.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/header/logo.png">
+    <!-- <link rel="manifest" href="assets/images/favicons/site.webmanifest" /> -->
+    <meta name="description" content="Gazda és bádogbolt Halásztelken" />
     <!-- SEO -->
-    <meta property="og:title" content="gazdaesbadogosbolt" />
+    <meta property="og:title" content="Gazda és bádogbolt Halásztelken" />
     <meta property="og:image" content="" />
-    <meta property="og:site_name" content="gazdaesbadogosbolt" />
+    <meta property="og:site_name" content="Gazda és bádogbolt Halásztelken Halásztelken" />
     <meta property="og:description" content="" />
 
     <link rel="schema.dcterms" href="http://purl.org/dc/terms/">
     <meta name="DC.coverage" content="Hungary" />
     <meta name="DC.description" content="" />
     <meta name="DC.format" content="text/html" />
-    <meta name="DC.publisher" content="gazdaesbadogosbolt" />
+    <meta name="DC.publisher" content="Gazda és bádogbolt Halásztelken" />
     <meta name="DC.title" content="" />
     <!-- App css -->
     <link rel="stylesheet" href="/css/app.css">

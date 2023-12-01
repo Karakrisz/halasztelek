@@ -274,7 +274,7 @@ footer {
 .promotions-content,
 .blog-custom-content {
     padding: 2em 5em;
-    background-image: url(../img/promotions/%.svg);
+    background-image: url(../img/promotions/subpage-bg.svg);
     background-size: cover;
     background-position: bottom;
     background-position-y: -30em;
@@ -1904,6 +1904,9 @@ footer {
     }
     .blog-custom-content p {
         font-size: 1rem;
+    }
+    .blog-custom-content__img {
+        height: 100%;
     }
 }
 
