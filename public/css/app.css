@@ -441,8 +441,8 @@ footer {
 }
 
 .about-content__img-text-box__img-box__one-img-box {
-    bottom: 3em;
-    left: -22%;
+    bottom: 5em;
+    left: -25.5%;
 }
 
 .about-content__img-text-box__img-box__one-img-box__img {
@@ -759,8 +759,11 @@ footer {
     .promotions-content__link-box {
         margin: 8em 0 5.9em 0;
     }
+    .about-content__img-text-box__text-box {
+        padding: 3em 0 5em 5em;
+    }
     .about-content__img-text-box__img-box__one-img-box__img {
-        width: 400px;
+        width: 450px;
     }
     .gallery-content__row__column__img {
         height: 250px;
@@ -850,8 +853,11 @@ footer {
     .promotions-content__link-box {
         margin: 8em 0 5.9em 0;
     }
+    .about-content__img-text-box__text-box {
+        padding: 3em 0 5em 5em;
+    }
     .about-content__img-text-box__img-box__one-img-box__img {
-        width: 360px;
+        width: 440px;
     }
     .gallery-content__row__column__img {
         height: 250px;
@@ -964,8 +970,11 @@ footer {
     .promotions-content__link-box {
         margin: 8em 0 5.9em 0;
     }
+    .about-content__img-text-box__text-box {
+        padding: 3em 0 5em 5em;
+    }
     .about-content__img-text-box__img-box__one-img-box__img {
-        width: 320px;
+        width: 400px;
     }
     .gallery-content__row__column__img {
         height: 230px;
@@ -1055,8 +1064,11 @@ footer {
     .promotions-content__link-box {
         margin: 8em 0 5.9em 0;
     }
+    .about-content__img-text-box__text-box {
+        padding: 3em 0 4em 5em;
+    }
     .about-content__img-text-box__img-box__one-img-box__img {
-        width: 280px;
+        width: 340px;
     }
     .gallery-content__row__column__img {
         height: 230px;
@@ -1143,8 +1155,11 @@ footer {
     .promotions-content__link-box {
         margin: 6em 0 4em 0;
     }
+    .about-content__img-text-box__text-box {
+        padding: 3em 0 4em 5em;
+    }
     .about-content__img-text-box__img-box__one-img-box__img {
-        width: 280px;
+        width: 320px;
     }
     .gallery-content__row__column__img {
         height: 230px;
@@ -1235,7 +1250,7 @@ footer {
         margin: 6em 0 4em 0;
     }
     .about-content__img-text-box__img-box__one-img-box__img {
-        width: 280px;
+        width: 320px;
     }
     .gallery-content__row__column__img {
         height: 170px;
